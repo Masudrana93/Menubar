@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu-logo {
+    display: flex;
+    width: 1000px;
+    height: 98px;
+    background: bisque;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    text-transform: uppercase;
+    font-family: serif;
+}
+.menu-logo {
+    align-items: center;
+}
+
+.menu {
+    margin: auto;
+}
+.menu ul li a:hover {
+    background: rebeccapurple;
+    color: white;
+    border-radius: 10%;
+}
